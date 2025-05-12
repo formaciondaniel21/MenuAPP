@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:paddingHorizontal="16dp"
     android:paddingVertical="32dp"
+    android:background="@color/imc_app"
     tools:context=".IMC.IMCActivity">
 
     <androidx.cardview.widget.CardView
@@ -35,7 +36,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Hombre"
+                android:text="@string/male"
                 android:textAllCaps="true"
                 android:textColor="@color/black"
         </androidx.appcompat.widget.LinearLayoutCompat>
@@ -66,7 +67,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Mujer"
+                android:text="@string/female"
                 android:textColor="@color/black"
                 android:textAllCaps="true"
         </androidx.appcompat.widget.LinearLayoutCompat>
